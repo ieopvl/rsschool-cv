@@ -51,7 +51,9 @@ Some most interesting form it:
     * [Canvas Clock](https://ieopvl.github.io/pvt_fd2/clock_canvas/)
     
 2) My first app [Shooter game](https://ieopvl.github.io/projects/shooter_game/)
-3) [Fitness Tracker App](https://ieopvl.github.io/projects/workout_app/). I use local storage to save daily results
+
+3) [Fitness Tracker App](https://ieopvl.github.io/projects/workout_app/). I use local storage to save information
+
 4) [Relax App](https://ieopvl.github.io/projects/relax_app/). Here I use OOP programming style and Webpack 4.
 
 **React**
