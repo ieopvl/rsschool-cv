@@ -211,6 +211,7 @@ a {
 .indicator-react { width: 60%; }
 .indicator-webpack { width: 60%; }
 .indicator-git { width: 70%; }
+.indicator-english { width: 65% }
 
 .projects-list {
   display: flex;
