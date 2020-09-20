@@ -28,6 +28,22 @@ a {
   text-decoration: none;
 }
 
+.underscore-title {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+
+  font-size: 32px;
+  color: #c68d08;
+
+  border-bottom: 1px solid #c68d08;
+}
+
+.wrapper-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   max-width: 980px;
   margin: 0 auto;
@@ -101,15 +117,6 @@ a {
   padding: 10px;
 
 }
-.summary-title {
-  margin-bottom: 10px;
-  padding-bottom: 5px;
-
-  font-size: 32px;
-  color: #c68d08;
-
-  border-bottom: 1px solid #c68d08;
-}
 
 .summary p {
   margin-bottom: 5px;
@@ -155,3 +162,52 @@ a {
   color: #373737;
   font-size: 16px;
 }
+
+.skills {
+  margin-bottom: 40px;
+}
+
+.skills-list {
+  width: 80%;
+}
+
+.skills-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 10px;
+
+  font-size: 24px;
+}
+
+.skills-label {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.progressbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  height: 12px;
+
+  background-color: #efeeee;
+  border-radius: 15px;
+}
+
+.progressbar-indicator {
+  height: 12px;
+
+  background-color: #ffd503;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.indicator-html { width: 90%; }
+.indicator-css { width: 80%; }
+.indicator-js { width: 98%; }
+.indicator-react { width: 60%; }
+.indicator-webpack { width: 60%; }
+.indicator-git { width: 70%; }
