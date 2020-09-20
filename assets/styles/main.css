@@ -1,0 +1,100 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.photo {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+
+  border-radius: 50%;
+}
+
+.fullname {
+  margin-bottom: 10px;
+
+  font-family: Arial, sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.title-job {
+  margin-bottom: 15px;
+
+  font-size: 24px;
+  color: #c68d08;
+}
+
+.contacts-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts-item {
+  padding-left: 30px;
+  margin-right: 20px;
+
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
+}
+
+
+.icon-phone { background-image: url("../images/icons/phone.png"); }
+.icon-email { background-image: url("../images/icons/email.png"); }
+.icon-github { background-image: url("../images/icons/github.png"); }
+
+.contacts-link {
+  color: #000000;
+  font-weight: 300;
+}
+
+
