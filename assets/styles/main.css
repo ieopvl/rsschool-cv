@@ -87,7 +87,6 @@ a {
   background-size: contain;
 }
 
-
 .icon-phone { background-image: url("../images/icons/phone.png"); }
 .icon-email { background-image: url("../images/icons/email.png"); }
 .icon-github { background-image: url("../images/icons/github.png"); }
@@ -95,6 +94,25 @@ a {
 .contacts-link {
   color: #000000;
   font-weight: 300;
+}
+
+.summary {
+  margin-bottom: 10px;
+  padding: 10px;
+
+}
+.summary-title {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+
+  font-size: 32px;
+  color: #c68d08;
+
+  border-bottom: 1px solid #c68d08;
+}
+
+.summary p {
+  margin-bottom: 5px;
 }
 
 
